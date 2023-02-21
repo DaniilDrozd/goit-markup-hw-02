@@ -28,8 +28,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  list-style: none;
-  text-decoration: none;
+
   font-style: normal;
 
   color: #4d5ae5;
@@ -58,7 +57,6 @@ body {
   color: #2e2f42;
 }
 .header-email {
-  position: absolute;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -66,7 +64,6 @@ body {
   line-height: 24px;
 
   letter-spacing: 0.02em;
-
   color: #434455;
 }
 .header-tel {
@@ -112,6 +109,7 @@ body {
 }
 /* section 2 */
 .section-2 {
+  list-style: none;
 }
 .section-2-hidden {
 }
@@ -155,6 +153,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+
   line-height: 24px;
   color: #2e2f42;
 }
@@ -207,27 +206,37 @@ body {
 .section-5 {
   background-color: #2e2f42;
 }
-.first-header-logo {
+.first-header-logo1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
+
+  letter-spacing: 0.03em;
+
   color: #4d5ae5;
 }
-.second-heder-logo2 {
+
+.second-heder-logo1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
   color: #f4f4fd;
 }
+
 .section-5-last {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+
+  letter-spacing: 0.02em;
+
   color: #e7e9fc;
 }
 /* section 5 */
