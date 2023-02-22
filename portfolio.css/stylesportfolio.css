@@ -6,7 +6,10 @@
   font-family: "Open Sans Bold";
   src: url(../fonts/OpenSans-Bold.ttf);
 } */
-:root {
+.body {
+  font-family: "Roboto" sans-serif;
+}
+.root {
   --main-title-color5: #4d5ae5;
   --main-title-color6: #2e2f42;
   --main-title-color7: #434455;
