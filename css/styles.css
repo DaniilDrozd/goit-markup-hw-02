@@ -234,3 +234,144 @@ body {
   color: var(--main-title-color);
 }
 /* section 5 */
+
+/* 2 етап */
+.element.style {
+  font-style: normal;
+}
+
+.link2 {
+  text-decoration: none;
+}
+.list2 {
+  list-style: none;
+}
+
+/* Header */
+.logo4 {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+
+  color: var(--main-title-color3);
+}
+
+.link {
+  text-decoration: none;
+}
+.second-logo4 {
+  color: var(--main-title-color4);
+}
+
+.header-navigation2 {
+}
+.header-list {
+}
+.list2 {
+  list-style: none;
+}
+.header-item2 {
+}
+.header-link2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-title-color2);
+}
+.header-email2 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-title-color4);
+}
+
+link {
+  text-decoration: none;
+}
+.header-tel2 {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--main-title-color4);
+}
+
+/* Section 2 */
+
+.portfolio-sect-2 {
+}
+.portfolio-sect-2-navigation {
+}
+.portfolio-sect-2-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--main-title-color3);
+  color: var(--main-title-color);
+}
+.portfolio-sect-2-list2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-title-color3);
+}
+/* section3 */
+.about3 {
+}
+.about3-navigation {
+}
+.about3-list {
+}
+.about3-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--main-title-color2);
+}
+.about3-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-title-color4);
+}
+.logo3 {
+  font-family: "Raleway";
+  font-style: normal;
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--main-title-color3);
+}
+
+.link {
+  text-decoration: none;
+}
+.second-logo3 {
+  color: var(--main-title-color);
+}
+
+.section-5-last2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-title-color);
+}
+.section-last {
+  background-color: var(--main-title-color4);
+}
