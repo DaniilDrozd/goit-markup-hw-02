@@ -5,9 +5,11 @@
 @font-face {
   font-family: "Open Sans Bold";
   src: url(../fonts/OpenSans-Bold.ttf); */
-
+.element.style {
+  font-style: normal;
+}
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", "Helvetica Neue", "Verdana", "Tahoma", sans-serif;
 }
 :root {
   --main-title-color: #ffffff;
@@ -34,15 +36,14 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
-
+  line-height: 1.3;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: var(--main-title-color3);
 }
 .second-logo {
-  color: #2e2f42;
+  color: var(--main-title-color4);
 }
 
 .header-list {
@@ -50,19 +51,17 @@ body {
 .header-item {
 }
 .header-link {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color4);
 }
 .header-email {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
   color: var(--main-title-color2);
@@ -70,11 +69,10 @@ body {
 .header-tel {
   position: absolute;
 
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
@@ -86,11 +84,10 @@ body {
   background-color: var(--main-title-color4);
 }
 .hero-efectiv-sol {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.2;
   text-align: left;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
@@ -121,14 +118,14 @@ body {
 .section-2-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-title-color4);
 }
 .section-2-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color2);
 }
@@ -139,7 +136,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-title-color4);
@@ -162,7 +159,7 @@ body {
   font-weight: 500;
   font-size: 20px;
 
-  line-height: 24px;
+  line-height: 1.2;
   color: var(--main-title-color4);
 }
 .our-team-name-2 {
@@ -170,7 +167,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 
   color: var(--main-title-color4);
 }
@@ -179,7 +176,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   color: var(--main-title-color4);
 }
 .our-team-name-4 {
@@ -187,7 +184,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   color: var(--main-title-color4);
 }
 .our-team-team {
@@ -195,16 +192,9 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  color: var(--main-title-color4);
-}
-
-.our-team-job {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--main-title-color2);
 }
 
@@ -220,7 +210,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
 
@@ -231,7 +221,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-title-color3);
