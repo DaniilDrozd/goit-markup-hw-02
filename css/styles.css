@@ -286,7 +286,8 @@ body {
   line-height: 1.5;
   color: var(--main-title-color2);
 }
-.header-link2:hover {
+.header-link2:hover,
+.header-link2:focus {
   color: var(--main-title-color3);
 }
 
@@ -297,8 +298,11 @@ body {
   color: var(--main-title-color4);
   letter-spacing: 0.02em;
 }
-.header-emaill:hover {
-  color: var(--main-title-color3);
+.header-emaill:hover,
+.header-tell:hover,
+.header-emaill:focus,
+.header-tell:focus {
+  color: var(--main-title-color5);
 }
 .header-tell {
   font-weight: 400;
