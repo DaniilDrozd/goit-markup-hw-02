@@ -25,6 +25,9 @@ body {
   text-decoration: none;
 }
 /* Header */
+.header-address {
+  font-style: normal;
+}
 .header {
 }
 .header-navigation {
